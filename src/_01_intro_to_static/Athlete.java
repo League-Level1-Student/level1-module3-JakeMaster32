@@ -24,7 +24,7 @@ public class Athlete {
 		Athlete athlete2 = new Athlete("Joe", 2);
 		System.out.println(athlete1.name);
 		System.out.println(athlete1.bibNumber);
-		System.out.println(raceLocation);
+		System.out.println(Athlete.raceLocation);
 
 		System.out.println(athlete2.name);
 		System.out.println(athlete2.bibNumber);

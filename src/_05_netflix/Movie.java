@@ -25,7 +25,7 @@ public class Movie implements Comparable<Movie> {
 	}
 
 	public String toString() {
-		return "\"" + title + "\" - " + stars + " stars";
+		return "\"" + title + "\" - " +stars + "/100";
 	}
 
 public String getTicketPrice() {
