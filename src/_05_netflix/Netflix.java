@@ -15,12 +15,12 @@ public class Netflix {
 		netflix.addMovie(InfinityWar);
 		netflix.addMovie(Endgame);
 		netflix.addMovie(FarFromHome);
-	netflix.printMovies();
-	netflix.sortMoviesByRating();
-	System.out.println(netflix.getMovie(0));
-	System.out.println(netflix.getMovie(1));
-	System.out.println(netflix.getMovie(2));
-	System.out.println(netflix.getMovie(3));
-	System.out.println(netflix.getMovie(4));
+		netflix.printMovies();
+		netflix.sortMoviesByRating();
+		System.out.println("The best movie is " + netflix.getMovie(0));
+		System.out.println("The second best movie is " + netflix.getMovie(1));
+		System.out.println("The third best movie is " + netflix.getMovie(2));
+		System.out.println("The fourth best movie is " + netflix.getMovie(3));
+		System.out.println("The worst movie is " + netflix.getMovie(4));
 	}
 }

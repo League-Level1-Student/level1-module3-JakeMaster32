@@ -4,8 +4,6 @@ package _05_netflix;
  *    Level 1
  */
 
-
-
 public class Movie implements Comparable<Movie> {
 
 	private String title;
@@ -25,10 +23,10 @@ public class Movie implements Comparable<Movie> {
 	}
 
 	public String toString() {
-		return "\"" + title + "\" - " +stars + "/100";
+		return "\"" + title + "\" - " + stars + "/100";
 	}
 
-public String getTicketPrice() {
+	public String getTicketPrice() {
 		if (this.stars > 2) {
 			return "That will be $12 please.";
 		} else if (this.title.contains("Twilight")) {
@@ -37,7 +35,6 @@ public String getTicketPrice() {
 			return "Don't waste your money on this horrible rubbish.";
 		}
 	}
- 
 
 	public int compareTo(Movie otherMovie) {
 		int compareQuantity = otherMovie.getRating();
